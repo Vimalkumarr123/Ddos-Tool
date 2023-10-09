@@ -2,7 +2,6 @@ import socket
 from threading import Thread
 
 target = input("enter the target ip --->>") # enter your target ip  here
-fake_ip = '192.168.3.334' # this is fake ip address
 port = int(input("enter the port ---->>"))
 
 attack_num = 0
